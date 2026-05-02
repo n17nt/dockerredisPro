@@ -1,8 +1,8 @@
 import { Pool } from "pg";
 const pool = new Pool({
-  host: "db",
-  password: 1234,
-  port: 5434,
+  host: "postgres",
+  password: "1234",
+  port: 5432,
   user: "postgres",
   database: "docker_db",
 });
